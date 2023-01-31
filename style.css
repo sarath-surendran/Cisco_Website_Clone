@@ -1,0 +1,426 @@
+body{
+    font-family: ciscofont;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: ciscofont;
+    src: url(./CiscoSansTTLight.woff2);
+}
+:root{
+    --card_width: 390px;
+    --card_height: 500px;
+}
+
+/* Header Section Start */
+/* first header */
+
+header a{
+   text-decoration: none;
+   color: #1b1c1d;
+}
+.first_header{
+    background-color: #f4f5f6;
+    height: 35px;
+   
+    
+}
+.first_header .nav{
+    position: relative;
+    left: 1075px;
+    padding-top: 5px;
+}
+.first_header .nav a{
+    margin-right: 35px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+.first_header .nav a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* First header Ends */
+
+/* Second Header Start */
+.second_header{
+    display: flex;
+    height: 80px;
+    box-shadow: 0px 2px 5px rgb(195, 189, 189);
+}
+.second_header .logo{
+   position: relative;
+   left: 78px;
+   top: 15px;
+   filter: contrast(2);
+}
+.second_header .menu{
+   position: relative;
+   left: 112px;
+   top: 33px;
+}
+.second_header .menu a{
+    margin-right: 25px;
+}
+.second_header .menu a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.second_header .explore_and_search{
+   position: absolute;
+   right: 110px;
+   margin-top: 30px;
+}
+.second_header .explore_and_search a{
+    margin-right: 25px;
+}
+.second_header .explore_and_search a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* Second section ends */
+/* Header section ends */
+
+/* Main container Start */
+/* Main text */
+.main_container .main_text{
+    height: 340px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.main_container .main_text h1{
+    font-family: ciscofont,sans-serif;
+    margin-top: 90px;
+    margin-bottom: 0;
+    font-size: 65px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.main_container .main_text p{
+    color: #1b1c1d;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+.main_container .main_text button{
+    width: 160px;
+    height: 55px;
+    background-color: #0d274d;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 30px;
+}
+.main_container .main_text button:hover{
+    cursor: pointer;
+    background-color: #0a1a31;
+}
+/* Main Text Ends */
+/* Icon container Starts */
+.icon_container{
+   display: flex;
+   justify-content: center;
+   padding-top: 25px;
+   align-items: center;
+}
+.icon_container .icons{
+    margin-right: 40px;
+}
+.icon_container .icons:hover{
+    cursor: pointer;
+}
+#Downloads{
+    margin-left: 28px;
+}
+#Certifications{
+    margin-left: 30px;
+}
+#Design-guides{
+    margin-left: 35px;
+}
+#Training{
+    margin-left: 15px;
+}
+#Community{
+    margin-left: 28px;
+}
+#Careers{
+    margin-left: 15px;
+}
+.icon_container a{
+    text-decoration: none;
+    color: #1b1c1d;
+}
+.icon_container a:hover{
+    text-decoration: underline;
+}
+/* Icon container End */
+/* Card container Start */
+
+.card_container{
+    padding-top: 70px;
+}
+.card_container .text{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.cards .heading{
+    font-size: 20px;
+    padding: 20px;
+}
+.cards .content{
+    padding: 0px 20px;
+    line-height: 25px;
+    
+}
+.cards a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #1275d2;
+}
+.cards a:hover{
+   text-decoration: underline #1275d2;
+}
+.card1{
+    width: var(--card_width);
+    height: var(--card_height);
+    box-shadow: 0px 1px 14px 6px rgb(235, 229, 229);
+}
+.card1 img{
+    width: 100%;
+}
+.card2{
+    width: var(--card_width);
+    height: var(--card_height);
+    box-shadow: 0px 1px 14px 6px rgb(235, 229, 229);
+}
+.card2 img{
+    width: 100%;
+}
+.card3{
+    width: var(--card_width);
+    height: var(--card_height);
+    box-shadow: 0px 1px 14px 6px rgb(235, 229, 229);
+}
+.card3 img{
+    width: 100%;
+}
+/* Card container End */
+
+/* Feature container starts */
+.features_container{
+    padding: 114px;
+}
+.features_container .heading{
+    font-size: 32px;
+    font-weight: 100;
+}
+.features_container .content{
+    line-height: 25px;
+}
+.features_container img{
+    width: 600px;
+    height: 340px;
+}
+.features_container button{
+    background-color: #0070d2;
+    color: white;
+    width: 160px;
+    height: 55px;
+    border-radius: 30px;
+    font-size: 17px;
+    border: none;
+
+}
+.features_container button:hover{
+    background-color: #02559e;
+    cursor: pointer;
+}
+.simplicity_and_speed{
+    padding-top: 50px;
+    display: flex;
+}
+.simplicity_and_speed .simplicity_text{
+   
+    padding-top: 40px;
+    padding-left: 150px;
+
+}
+.smart_spaces{
+    padding-top: 150px;
+    display: flex;
+}
+.smart_spaces .smart_image{
+    padding-left: 100px;
+}
+.smart_spaces button{
+    width: 180px;
+}
+.workplace{
+    padding-top: 150px;
+    display: flex;
+}
+.workplace .workplace_text{
+    padding-top: 40px;
+    padding-left: 150px;
+}
+/* Feature container ends */
+/* Video container Start */
+.video_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video_container .video_text{
+    padding: 0px 300px;
+    text-align: center;
+    
+}
+.video_container .video_text .heading{
+    font-size: 40px;
+}
+.video_container .video_text .content{
+    line-height: 25px;
+}
+.video_container .video{
+   width: 800px;
+   height: 450px;
+}
+.video iframe{
+    width: 100%;
+    height: 100%;
+}
+/* Video Container End */
+
+/* News and events container Start */
+.news_and_events_container{
+    padding: 114px;
+    display: flex;
+    flex-direction: column;
+}
+.news_and_events_container .main_title h2{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: inherit;
+}
+.news_and_events_container .main_links a{
+   float: right;
+   margin-right: 30px;
+   position: relative;
+   bottom: 60px;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 15px;
+   color: #268be3;
+   
+}
+.news_and_events_container .main_links a:hover{
+    border-bottom: 1px solid ;
+    color: #02559e;
+}
+.news_and_events_container .ne_card_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+   
+}
+.ne_card_container .title{
+    color: #1b1c1d;
+    font-weight: 800;
+    font-size: 15px;
+}
+.ne_card_container h3{
+    font-family: inherit;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 25px;
+}
+.ne_card_container .content{
+    line-height: 25px;
+}
+.ne_card_container a{
+    text-decoration: none;
+    color: #268be3;
+    font-weight: 600;
+}
+.ne_card_container a:hover{
+    border-bottom: 1px solid ;
+    color: #02559e;
+}
+.ne_card_container .ne_card1{
+    text-align: left;
+   margin-right: 20px;
+   width: 400px;
+}
+.ne_card_container .ne_card2{
+   margin-right: 20px;
+   width: 400px;
+    
+}
+.ne_card_container .ne_card3{
+    width: 400px;
+   
+    
+}
+/* News and event containere end */
+/* Main container End */
+
+
+/* Footer container start */
+footer{
+    background-color: #f4f5f6;
+    padding: 50px 80px 10px;
+}
+footer .first_section{
+    padding-bottom: 50px;
+    border-bottom: 1px solid;
+}
+.first_section .footer_nav a{
+    color: #606162;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.first_section .footer_nav a:hover{
+    text-decoration: underline;
+}
+footer .social{
+    float: right;
+    display: flex;
+}
+footer .social li{
+    list-style: none;
+    margin-right: 30px;
+    filter: grayscale(50);
+}
+footer .social li:hover{
+    cursor: pointer;
+    filter: grayscale(0);
+}
+
+.second_section .links{
+    display: flex;
+}
+.second_section .links li{
+    list-style: none;
+    margin-top: 30px;
+}
+.second_section .links a{
+    text-decoration: none;
+    color: #606162;
+    margin-right: 20px;
+    font-size: 13px;
+}
+.second_section .links a:hover{
+    text-decoration: underline;
+}
+.second_section .text p{
+    color: #606162;
+    font-size: 11px;
+    margin-top: 55px;
+}
